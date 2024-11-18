@@ -1,25 +1,52 @@
 body {
     font-family: Verdana, Arial, sans-serif;
+    color: #775548;
 }
 
 .imag {
     width: 100%;
-    max-width: 100%;
 }
 
 .up {
-    display: inline-block;
+    display: inline;
+}
+
+.size {
+    font-size: 13px;
+}
+
+#links-up {
+    font-size: 20px;
 }
 
 .links {
-    color: #ef671d;
+    color: #ef671d; 
 }
 
+h2 {
+    width: 100%;
+    font-size: 18px;
+    background-color: #775548;
+    color: #e2d5d0;
+}
 
+.bold {
+    font-weight: bold;
+}
 
+#azul {
+    color: #3baac3;
+}
 
+#rojo {
+    color: #ee4048;
+}
 
-#footer {
+#ult-h2 {
+    color: #dbb13b;
+}
+
+footer {
     background-color: black;
     height: 100px;
     color: yellow;
@@ -28,5 +55,5 @@ body {
 #p-footer {
     position: relative;
     top: 40%;
-    left: 40%;
+    left: 40%; 
 }

@@ -18,3 +18,26 @@ class=""
 target=""
 id=""
 ```
+
+## CSS
+
+Para estilizar el CSS se utilizaron los siguientes elementos:
+
+```sh
+position: relative;
+height:;
+font-weight:;
+background-color:;
+font-size:;
+display:;
+width:;
+color:;
+font-family:;
+```
+Sumándole las clases
+
+## Datos del alumno
+
+Nombre:
+Link GitHub:
+Link Netlify:
