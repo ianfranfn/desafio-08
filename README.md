@@ -38,6 +38,6 @@ Sumándole las clases
 
 ## Datos del alumno
 
-Nombre:
-Link GitHub:
-Link Netlify:
+Nombre: Ian Franco Fariña Núñez
+Link GitHub: https://github.com/ianfranfn/desafio-05.git
+Link Netlify: https://desafio05ian.netlify.app/
