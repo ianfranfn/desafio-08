@@ -1,36 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-/* Reset */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: "Ubuntu", sans-serif;
-    height: 2500px;
-    background-color: #333;
-    color: #eee;
+    font-family: Verdana, Arial, sans-serif;
 }
 
-.header {
-    text-align: center;
-    height: 150px;
-    background-color: pink;
-    color: #222;
+.imag {
+    width: 100%;
+    max-width: 100%;
 }
 
-/* Position --> se comporta parecido al relative combinado con el fixed */
-
-.nav {
-    position: sticky;
-    top: 0;
+.up {
+    display: inline-block;
 }
 
-.article-title {
-    background-color: purple;
-    position: sticky;
-    top: 0;
+.links {
+    color: #ef671d;
+}
 
+
+
+
+
+#footer {
+    background-color: black;
+    height: 100px;
+    color: yellow;
+}
+
+#p-footer {
+    position: relative;
+    top: 40%;
+    left: 40%;
 }
