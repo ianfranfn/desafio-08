@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f50057; /* Color de fondo */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sección de productos */
+  .productos {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Título de la sección */
+  .titulo-seccion {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Producto individual */
+  .producto {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Borde de la tarjeta */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Título del producto */
+  .titulo-producto {
+    background-color: #f50057;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  /* Imagen del producto */
+  .imagen-producto {
+    width: 100%; /* Ajusta al ancho del contenedor */
+    display: block;
+  }
+  
+  /* Descripción del producto */
+  .descripcion-producto {
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Botón de compra */
+  .boton-comprar {
+    display: block;
+    width: 100px;
+    margin: 15px auto;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .boton-comprar:hover {
+    background-color: #45a049; /* Efecto hover */
+  }
+  
