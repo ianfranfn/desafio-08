@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+body {
+    background-color: #e11364;
+    background-image: url(../../public/imgs/fondo-mario.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagen-producto {
+    margin-top: 20%;
+    margin-left: 6%;
+    margin-bottom: 5%;
+    margin-right: 10px;
+    width: 50%;
+    padding: 30px;
+    background-color: #bc105c;
+    border-radius: 10px;
+    float: left;
+}
+
+.productos {
+    clear: both;
+    overflow: hidden;
+}
+
+.mario-titulo {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding: 30px;
+    background-color: #bc105c;
+    border-radius: 10px;
+    border-top: 10px solid #eee;
+    border-bottom: 10px solid #eee;
+}
+
+.desc {
+    background-color: #cd2571;
+    color: #eee;
+    font-size: 29px;
+    overflow: hidden;
+    margin-top: 25%;
+    padding: 10px;
+    min-width: 35%;
+    max-width: 80%;
+    width: 35%;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #28a745;
+    border: 1px solid #218838;
+    color: #eee;
+    font-size: 29px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #e11364;
+    /* Color al pasar el mouse */
+}
+
+span {
+    text-decoration: line-through;
+}
+
+footer {
+    background-color: #e96093;
+    padding: 2%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #eee;
+    border-radius: 7px;
+}
+
+.instrucciones {
+    background-color: #bc105c;
+    max-width: 53%;
+    min-width: 50%;
+    margin-left: 6%;
+    margin-bottom: 20%;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    background-color: #f5d4e0;
+    max-width: 70%;
+    min-width: 65%;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+h3 {
+    font-size: 25px;
+    background-color: #e96093;
+    max-width: 40%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.controles-reglas {
+    font-size: 20px;
+    background-color: #f7bad1;
+    max-width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
