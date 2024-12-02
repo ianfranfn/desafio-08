@@ -12,15 +12,6 @@
     font-style: normal;
 }
 
-
-@font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
-    font-weight: bolder;
-    font-style: normal;
-}
-
-
 @font-face {
     font-family: 'Poppins';
     src: url('../fonts/Poppins/Poppins-Italic.ttf') format('truetype');
@@ -28,12 +19,6 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
-    font-weight: lighter;
-    font-style: normal;
-}
 
 body {
     background-color: #e11364;
