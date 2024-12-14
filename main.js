@@ -50,12 +50,41 @@ if (velocidadCoche >= 60 ) {
 
 let sueldo = prompt('Ingrese su sueldo')
 
-if (sueldo > 80000) {
-    console.log('Tu sueldo es excelente :)')
-} else if (sueldo <= 80000) {
-    console.log('Tu sueldo es muy bueno!')
+if (sueldo <= 40000) {
+    console.log('Tu sueldo es muy bajo :(')
 } else if (sueldo <= 60000) {
     console.log('Tu sueldo es bueno!')
-} else if (sueldo <= 40000) {
-    console.log('Tu sueldo es muy bajo :(')
+} else if (sueldo <= 80000) {
+    console.log('Tu sueldo es muy bueno!')
+} else if (sueldo == 100000) {
+    console.log('Tu sueldo es excelente :)')
+}
+
+// ! Ejercicio 5
+
+let fechaNac = prompt('Ingrese su fecha de nacimiento:')
+
+let edadAprox = 2024 - fechaNac
+
+console.log('Usted tiene: ', edadAprox, ' años.')
+
+// ! Ejercicio 6
+
+let n = prompt('Ingrese un número entero para saber su tabla de multiplicar:')
+
+for (let i = 1; i <= 10; i++) {
+    let resultado = n * i
+    console.log(n + ' x ' + i + ' = ' + resultado)
+}
+
+// ! Ejercicio 7 
+
+let num = prompt('Ingrese un número entero:')
+
+if ((num / 2 ) * 2 === num) {
+    console.log('El número ' + num + ' es par')
+    console.warn('El número ' + num + ' es par')
+} else {
+    console.log('El número ' + num + ' es impar')
+    console.warn('El número ' + num + ' es impar')
 }
